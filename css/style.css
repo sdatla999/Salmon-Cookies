@@ -14,7 +14,7 @@ h1{
 }
 h2{
     font-family: 'Open Sans';
-    color: white;
+    color: black;
     font-size: large;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -121,6 +121,7 @@ footer {
     color: white;
     font-size: 15px;
     text-align: center;   
+    position: fixed;
 
 }
 
@@ -167,5 +168,11 @@ input[type=text], select, textarea {
     color: black;
     font-size: small;
     margin-bottom: 10px;
+}
+
+div.location {
+    outline: green;
+    float: left;
+    margin: 20px;
 }
 
